@@ -23,23 +23,25 @@
                 margin-top: 16px;
 
                 .button {
-                    border: 2px solid #fff;
+                    border: 3px solid variaveis.$corTextoInterno;
                     text-decoration: none;
                     padding: 8px;
                     text-align: center;
                     border-radius: 6px;
                     font-size: 24px;
-                    color: #FFF;
+                    color: variaveis.$corTextoInterno;
                     cursor: pointer;
+                    font-weight: bold;
 
                     &:hover {
-                        background-color: rgba($color: #fff, $alpha: 0.5);
-                        color: #000;
-                        border: 2px solid #000
+                        background-color: rgba($color: variaveis.$corTextoInterno, $alpha: 0.5);
+                        color: variaveis.$corTitulos;
+                        border: 3px solid variaveis.$corTitulos;
+                        font-weight: bold;
                     }
 
                     &--dark {
-                        background-color: rgba($color: #000000, $alpha: 0.5);
+                        background-color: rgba($color: variaveis.$corBG, $alpha: 0.6);
                     }
                 }
             }
