@@ -1,0 +1,28 @@
+@use 'variaveis';
+
+.show {
+    
+    &__list {
+        padding-top: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        &__item {
+            padding: 50px 80px 50px 50px;
+            text-align: center;
+    
+            h2 {
+                padding-bottom: 40px;
+            }
+        }
+
+        img {
+
+            max-width: 700px;
+            padding: 40px;
+            border-radius: 50px;
+        }
+
+    }
+}
