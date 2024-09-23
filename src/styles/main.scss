@@ -54,3 +54,15 @@ footer {
     @include title;
 }
 
+.trailer {
+    margin-top: 150px;
+
+    &__link {
+        text-align: center;
+
+        h2 {
+            margin-bottom: 24px;
+        }
+    }
+}
+
